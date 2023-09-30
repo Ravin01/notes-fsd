@@ -1,0 +1,78 @@
+html - hyper text markup language
+it gives structure of our web page.
+skeleton system of our web page.
+html consists of series of element.
+html elemets tell the browser how display the content.
+
+
+why to use ? 
+
+
+html5 vs html4.
+It didn’t support audio and video without the use of flash player support.
+It supports audio and video controls with the use of <audio> and <video> tags
+
+Does not allow JavaScript to run in browser.
+Allows JavaScript to run in background. This is possible due to JS Web worker API in HTML5.
+
+graphics is not possible. it can be achieve with the help flash support
+Canvas, SVG introduced
+
+Not possible to draw shapes like circle, rectangle, triangle etc.
+HTML5 allows to draw shapes like circle, rectangle, triangle etc.
+
+Doctype declaration is too long and complicated.
+Doctype declaration is quite simple and easy.
+
+
+Inline and block level element
+Inline elements display in a line. They do not force the text after them to a new line
+eg : link tag
+<a>
+<strong>, <em>, <b>, <i>, <q>, <mark>
+<span>
+
+
+Block level elements take up as much space as possible by default. Each block level element will start a new line on the page, stacking down the page. In addition to stacking vertically, block level elements will also take up as much horizontal space as possible.
+<p>
+<ol>, <ul>, <dl>
+All headings
+<article>, <section>, <div>
+
+
+Semantic Tags : 
+
+Semantic HTML tags are tags that define the meaning of the content they contain
+eg : header,article,footer
+
+non-semantic tags
+they don't have meaning
+div,span
+
+div vs span
+div is a block level element
+span is a inline level element
+
+
+HTML Forms : 
+HTML Form is a document that stores information of a user on a web server using interactive controls
+
+
+input elements : 
+attributes => 
+button, checkbox, color, date, email, file, text, hidden, radio
+
+
+self closing tag : 
+A self-closing tag in HTML is a kind of HTML tag that does not need to be closed manually by its closing tag
+<input/>, <hr/>, <br/>, <img/>
+
+closgng tag : 
+
+
+
+
+
+
+
+

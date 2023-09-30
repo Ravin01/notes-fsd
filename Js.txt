@@ -1,0 +1,72 @@
+JavaScript is a scripting language for creating dynamic web page content
+it is a sychoronous programing language, single - threaded
+object-oriented based pogramming language
+async returns the promise
+
+callback
+A JavaScript callback is a function which is to be executed after another function has finished execution. A more formal definition would be - Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function
+callback q, event loop, callback hell(stack), web api - LIFO.
+
+disadvantage of callback hell : 
+Low readability and problem in maintaining code. Difficulty in error handling, debugging and testing. Increased code complexity.
+
+
+promise :
+Promises are used to handle asynchronous operations in JavaScript. Syntax: let promise = new Promise(function(resolve, reject){ //do something }); 
+takes only one argument which is a callback function.
+
+promise chain:
+Promise Chaining is a simple concept by which we may initialize another promise inside our .then() method and accordingly we may execute our results. The function inside then captures the value returned by the previous promise
+
+
+promise.all
+Promise. all in JavaScript is a built-in functional method that takes in an array of promises as input and returns a single promise only after resolving all the promises of the input array in sequential order
+
+
+fetch()
+The fetch() method in JavaScript is used to request data from a server. The request can be of any type of API that returns the data in JSON or XML. The fetch() method requires one parameter, the URL to request, and returns a promise
+
+
+async and await
+Using await pauses the execution of its surrounding async function until the promise is settled (that is, fulfilled or rejected). When execution resumes, the value of the await expression becomes that of the fulfilled promise
+
+js : 
+
+Es5 vs Es6
+Data types supported: number, string, null, Boolean and undefined.
+Data types supported: number, string, null, Boolean, undefined, and Symbol.
+
+ES5 uses var to declare a variable.
+ES6 has an additional feature called let and const for defining a variable.
+
+ES5 uses the Require js module to include a react module or a component.
+ES6 uses the import module to include a react module or a component.
+
+ES5 uses the function keyword along with the return keyword to define a function.
+In ES6 we don’t need to use a function keyword to define a function. The use of the Arrow function in ES6 makes it more compact
+
+
+this keyword : 
+the this keyword refers to an object.
+
+template literals : 
+use back ticks rather than  quotes.
+multiline string
+allow variables.
+
+
+rest operator : 
+It collects several elements. In functions when we require to pass arguments but were not sure how many we have to pass, the rest parameter makes it easier. 
+
+
+spread operator :
+The spread operator helps us expand an iterable such as an array, object. it also helps to expand the object expressions.
+
+Destructuring  : 
+Destructuring is the act of unpacking elements in an array or object. Destructuring not only allow us to unpack elements, it also gives you the power to manipulate and switch elements you unpacked depending on the type of operation you want to perform
+
+class : 
+classes are a template for creating objects.
+
+
+

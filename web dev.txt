@@ -1,0 +1,19 @@
+what is web development ?
+refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser
+
+A front-end developer builds the front-end portion of websites and web applications
+Front-end development is the process of building components that interact with users.
+
+user(browser) -> DNS request -> DNS (domain name system)server -> DNS response -> Browser -> http request -> server -> http respose(html,css,js) -> browser.
+DNS server - matching the url and website name using ip address.
+
+window object
+The Window object represents the window in the browser. The window object is automatically created from the browser. All browsers support the Window object. Global variables are the properties of the Window objects, and global functions are the methods of the Window object
+
+
+Dom object
+When a web page is loaded , the browser creates a Document Object Model(DOM) of the page. The document Object represents the whole HTML document as a tree of Objects. DOM manipulates the html.
+
+querySelector is used to select a single element from the DOM tree, while document. querySelectorAll is used to select multiple elements from the DOM tree
+
+The setTimeout() method is used to call a function after a certain period of time. The setInterval() Javascript method is used to call a function repeatedly at a specified interval of time. setTimeout() is cancelled by clearTimeout() method, and setInterval() is cancelled by clearInterval() method.

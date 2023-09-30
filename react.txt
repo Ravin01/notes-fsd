@@ -1,0 +1,147 @@
+The React. js  is an open-source JavaScript library developed by Facebook. It's used for building interactive user interfaces and web applications quickly and efficiently.
+
+
+why we use react ?
+Because of its component-based approach and virtual DOM, React is a lot faster than other frameworks.
+
+
+What Is a Single Page Application?
+A single page application is a single page (hence the name) where a lot of information stays the same and only a few pieces need to be updated at a time.
+For example, when you browse through your email, you’ll notice that not much changes during navigation — the sidebar and header remain untouched as you go through your inbox.
+The SPA only sends what you need with each click, and your browser renders that information. This is different than a traditional page load where the server rerenders a full page with every click you make and sends it to your browser.
+
+
+
+
+advantages of react : 
+Simplified Scripting.
+Component-based architecture.
+Faster rendering.
+Stable Code Structure.
+SEO-enabled.
+Handy developer tools.
+Mobile app development.
+Easy to Learn, Easy to Use.
+
+disadavantage : 
+the pace of development.
+
+What is npm and why it is used?
+npm stands for Node Package Manager. It's a library and registry for JavaScript software packages. npm also has command-line tools to help you install the different packages and manage their dependencies.
+
+
+Webpack : 
+Webpack in react is a JavaScript module bundler that is commonly used with React to bundle and manage dependencies
+
+
+Babel : 
+Babel is a JavaScript compiler that converts modern JavaScript code into a version compatible with all browsers. Babel enables React developers to use the latest JavaScript syntax in their components. Babel transpiles modern JavaScript for use in React components and all browsers.
+
+
+What is JSX? 
+JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+
+
+What is difference between functional and class components?
+
+A functional component is just a plain JavaScript pure function that accepts props as an argument and returns a React element(JSX). A class component requires you to extend from React. Component and create a render function that returns a React element. There is no render method used in functional components
+How does React application work?
+React creates a virtual DOM in memory to update the browser's DOM. The virtual DOM will try to find the most efficient way to update the browser's DOM. Unlike browser DOM elements.
+
+
+
+What is conditional rendering in Reactjs?
+In React, conditional rendering is the process of displaying different content based on certain conditions or states.
+
+
+props vs state : 
+Props are used to pass data from a parent component to a child component, while state is used to manage data within a component. Props are immutable and cannot be changed within a component, while state is mutable and can be updated using the setState function.
+
+
+component life cycle : 
+1. Initial
+2. Mounting phase
+    Components render for the first time,created and inserted into the DOM
+    1. Constructor() *
+    2. getDerivedStateFromProps()
+    3. render() *
+    4. componentDidMount() *
+3. Updating phase
+    If any interactions happened to the component through props or state, component will update.
+    This is the re-render process and comes from the DOM. 
+    1. getDerivedStateFromProps()
+    2. shouldComponentUpdate() *
+    3. render() *
+    4. getSnapshotBeforeUpdate()
+    5. componentDidUpdate() *
+4. Unmounting phase
+    Component is being removed from the DOM.
+    1.componentWillUnmount() *
+
+
+stateful vs stateless : 
+stateful - keepig track of changing data,
+stateless is doesn't change, 
+
+
+reusable component : 
+In React, a reusable component is a piece of UI that can be used in various parts of an application to build more than one UI instance
+
+
+passig dynamic data
+Props can be passed as attributes to components in JSX, and we receive the props as arguments within the component, just like parameters and arguments passed to a function in JavaScript. 
+
+
+hooks : 
+Hooks let you use different React features from your components. You can either use the built-in Hooks or combine them to build your own.
+
+
+What is useState in Reactjs?
+useState is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
+
+
+What is the useEffect in React?
+The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers.
+
+
+router dom
+React Router DOM is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them. 
+Browser router
+link
+navigate
+router
+routes
+
+
+What is the context API in React?
+Context API allows data to be passed through a component tree without having to pass props manually at every level. This makes it easier to share data between components.
+it is used to manage state globally
+flow of : 
+createContext,
+useContext => provide
+consumer
+
+
+
+useRef : 
+useRef is a hook that allows to directly create a reference to the DOM element in functional component
+in class component we use createRef which is similar to useRef.
+
+
+useReducer :
+The useReducer Hook returns the current stateand a dispatchmethod.
+The useReducer Hook is used to store and update states, just like the useState Hook.
+useReducer returns an array that holds the current state value and a dispatch function
+
+
+What is Axios for React?
+Introduction to Axios: Axios, which is a popular library is mainly used to send asynchronous HTTP requests to REST endpoints. This library is very useful to perform CRUD operations. This popular library is used to communicate with the backend. Axios supports the Promise API, native to JS ES6
+
+
+What is called Redux?
+Redux is a state managing library used in JavaScript apps. It simply manages the state of your application or in other words, it is used to manage the data of the application.
+
+flow of redux : 
+component, event trigger, dispatch the event, reducer, state updated, return to UI.
+
+

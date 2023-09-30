@@ -1,0 +1,30 @@
+What is NodeJS and why it is used?
+Node. js is a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. It runs on the V8 JavaScript runtime engine,
+
+
+middleware i nodejs
+A middleware is basically a function that will the receive the Request and Response objects
+
+
+express js : 
+web application framework
+It's a layer built on the top of the Node js that helps manage servers and routes.
+Express.js is a server-side application framework that wraps HTTP requests and responses, and makes it easy to map URLs to server-side functions.
+
+
+req.params = params
+req.searchQuery = query
+
+
+dotenv :
+Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env 
+
+
+
+bcrpy : 
+Bcrypt is a password hashing algorithm 
+b stands for Blowfish and crypt is the name of the hashing function
+
+
+JWt : 
+A JSON Web Token, popularly known as JWT, is an open standard that defines a compact way for securely sharing information between two parties: a client and a server. 
